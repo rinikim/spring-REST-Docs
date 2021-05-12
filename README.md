@@ -44,12 +44,23 @@
 
     → RESTful 문서에 대한 명세 보다는 API를 쉽게 호출해볼 수 있는 것에 초점
 
-    [Spring REST Docs 과 Swagger 비교](https://www.notion.so/578d0b5fb2554ac3a0b937396334714d)
+- Spring REST Docs 과 Swagger 비교
+    |Spring REST Docs|Swagger|
+    |---|---|
+    |테스트 기반으로 실행|API 테스트 UI 제공|
+    |문서에 대한 신뢰성|어노테이션을 통한 간단한 작업|
+    |product 코드에 영향 없음|테스트 코드가 없어도 문서화 가능|
+    |간결 + 명료|깔끔하게 정리되어 보기 좋음|
+    |snippets 조합으로 커스터마이징 가능||
 
 - 문서화를 위한 API
-
-    [Untitled](https://www.notion.so/486b44ea803c4a3fb088fdb60c226ae3)
-
+    |사용자|HTTP APT|
+    |---|---|
+    |생성|POST / api / user|
+    |조회|GET / api / user /{id}|
+    |수정|PUT / api / user|
+    |삭제|DELETE / api / user / {id}|
+   
 - Database
     |Name|Datatype|
     |---|---|
@@ -59,9 +70,6 @@
     |phone_number|VARCHAR(45)|
     |created_at|DATETIME|
     |updated_at|DATETIME|
-
-
-    [Untitled](https://www.notion.so/5966e32e994f4619ad7a450704c095da)
 
 - 실습 순서
     1. 프로젝트 생성
