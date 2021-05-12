@@ -121,4 +121,4 @@
 
 ### *참고*
 - - - 
-- [FastCampus] 스프링 아카데미아 - Spring REST Docs : API 문서 자동화의 기본과 활용
+- [FastCampus] 스프링 아카데미아 - Spring REST Docs : API 문서 자동화의 기본과 활용 
