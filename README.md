@@ -51,6 +51,15 @@
     [Untitled](https://www.notion.so/486b44ea803c4a3fb088fdb60c226ae3)
 
 - Database
+    |Name|Datatype|
+    |---|---|
+    |id|BIGINT|
+    |account|VARCHAR(45)|
+    |email|VARCHAR(45)|
+    |phone_number|VARCHAR(45)|
+    |created_at|DATETIME|
+    |updated_at|DATETIME|
+
 
     [Untitled](https://www.notion.so/5966e32e994f4619ad7a450704c095da)
 
@@ -101,5 +110,7 @@
     7. Spring REST Docs에 만들어진 Docs를 Open API Spec을 적용시켜서 Spec파일을 만들고, Swagger UI를 띄우며 확인 할 수 있다.
 
 
+
 ### *참고*
+- - - 
 - [FastCampus] 스프링 아카데미아 - Spring REST Docs : API 문서 자동화의 기본과 활용
